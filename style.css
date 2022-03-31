@@ -1,0 +1,38 @@
+body {
+    background-color: lightgray;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: oblique;
+}
+
+.image-container{
+    align-items: flex-start;
+    width: fit-content;
+    display: flex;
+    border: 2px solid black;						
+    height: flex;
+    justify-content: center
+}
+
+#new-dog{
+    border: 1px solid black;
+    padding: 25px 50px;
+    background-color: lightblue;
+    display: center;
+    font-style:normal;
+}
+img{
+    width: 294px; 
+    height: 280px; 
+    object-fit: cover;
+    border: 2px solid black;
+    align-items: flex-start;
+    display: center;
+    image-resolution: inherit;
+}
+.dog-info{
+    font-size:1 em;  
+    margin-bottom: auto;
+}
